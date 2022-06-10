@@ -11,7 +11,7 @@ setuptools.setup(
     license_files = ("LICENSE",),
     description="Easily place shortcuts",
     packages=setuptools.find_packages(),
-    install_requires=['notebook', 'simpervisor', 'aiohttp'],
+    install_requires=['simpervisor', 'aiohttp'],
     python_requires='>=3.5',
     classifiers=[
         'Framework :: Jupyter',
